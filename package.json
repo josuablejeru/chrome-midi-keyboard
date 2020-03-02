@@ -1,0 +1,21 @@
+{
+  "name": "chrome-midi-keyboard",
+  "version": "0.0.1",
+  "description": "Midi Controller build for Google Chrome",
+  "main": "index.html",
+  "repository": "git@github.com:josuablejeru/chrome-midi-keyboard.git",
+  "author": "Josua Blejeru <josua.blejeru@gmail.com>",
+  "license": "Apache License 2.0",
+  "private": false,
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "prettier": "1.19.1"
+  },
+  "dependencies": {
+    "webmidi": "^2.5.1"
+  }
+}

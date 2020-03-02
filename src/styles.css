@@ -1,0 +1,13 @@
+.keyboard-container {
+  margin: 0;
+  padding: 0;
+}
+
+.white-key {
+  float: left;
+  margin: 4px;
+  height: 633px;
+  width: 133px;
+  box-shadow: inset 0px 0px 30px 20px white;
+  cursor: pointer;
+}
