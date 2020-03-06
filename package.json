@@ -7,13 +7,19 @@
   "author": "Josua Blejeru <josua.blejeru@gmail.com>",
   "license": "Apache License 2.0",
   "private": false,
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
-    "prettier": "1.19.1"
+    "parcel-plugin-svelte": "^4.0.6",
+    "prettier": "1.19.1",
+    "prettier-plugin-svelte": "^0.7.0",
+    "svelte": "^3.19.2"
   },
   "dependencies": {
     "webmidi": "^2.5.1"
